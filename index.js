@@ -19,7 +19,7 @@ app.use(cors({ origin: "*", methods: "GET,POST,PUT,DELETE", allowedHeaders: "Con
 // Connect Database
 connectDB();
 
-app.get("/", (req,res)=>{res.send("hell0")})
+app.get("/", (req,res)=>{res.send("helle users")})
 // Import Routes
 const indivisual_Routes = require("./routes/indivisual_partner_route");
 const company_partner_route = require("./routes/company_partner_route");
